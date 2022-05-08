@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="#d08bf2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textviewName"
+        android:textColor="#ff00"
+        android:textSize="40sp"
+        android:text="Họ tên"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/textviewNamSinh"
+        android:textColor="#0000ff"
+        android:textSize="30sp"
+        android:text="Năm sinh: 2022"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+<TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/textviewDiaChi"
+        android:textColor="#ffd900"
+        android:textSize="30sp"
+        android:text="Địa chỉ: Hà Nội"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+<TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/textviewEmail"
+        android:textColor="#00ffdd"
+        android:textSize="30sp"
+        android:text="Email: abc@gmail.com"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+
+</LinearLayout>
