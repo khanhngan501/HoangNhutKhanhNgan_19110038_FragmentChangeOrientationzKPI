@@ -1,6 +1,8 @@
 package hcmute.edu.vn.hoangnhutkhanhngan_19110038;
 
-public class SinhVien {
+import java.io.Serializable;
+
+public class SinhVien implements Serializable {
     private String HoTen;
     private int NamSinh;
     private String DiaChi;
